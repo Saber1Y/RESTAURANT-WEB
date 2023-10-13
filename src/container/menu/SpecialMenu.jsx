@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Subheading = () => {
+const SpecialMenu = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Subheading = () => {
   )
 }
 
-export default Subheading
+export default SpecialMenu
