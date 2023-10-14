@@ -32,13 +32,13 @@ const Navbar = () => {
 
       {toogleMenu === true && (
       <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-           <MdOutlineRestaurantMenu fontSize={27} className='overlay__close' onClick={() => setToogleMenu(false)} />
+        <MdOutlineRestaurantMenu fontSize={27} className='overlay__close' onClick={() => setToogleMenu(false)} />
       <ul className="app__navbar-smallscren-links">
-      <li className='p__opensans'><a href="#home">Home</a></li>
-      <li className='p__opensans'><a href="#about">About</a></li>
-      <li className='p__opensans'><a href="#memu">Menu</a></li>
-      <li className='p__opensans'><a href="#awards">Awards</a></li>
-      <li className='p__opensans'><a href="#contact">Contact</a></li>
+        <li className='p__opensans'><a href="#home">Home</a></li>
+        <li className='p__opensans'><a href="#about">About</a></li>
+        <li className='p__opensans'><a href="#memu">Menu</a></li>
+        <li className='p__opensans'><a href="#awards">Awards</a></li>
+        <li className='p__opensans'><a href="#contact">Contact</a></li>
     </ul>
       </div>
       )}
