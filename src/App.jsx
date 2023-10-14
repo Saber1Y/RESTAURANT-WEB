@@ -7,12 +7,12 @@ export default function App() {
   return (
     <>
     <Navbar />
+    <Header />
     <AboutUs />
     <Chef />
     <Findus />
     <Footer />
     <Gallery />
-    <Header />
     <Intro />
     <Laurels />
     <SpecialMenu />
