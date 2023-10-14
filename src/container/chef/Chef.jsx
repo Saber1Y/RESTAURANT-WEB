@@ -20,7 +20,7 @@ const Chef = () => {
             <p className="p__opensans">HIi i'm the best in the world, better than Gordon Ramsey</p>
           </div>
         </div>
-        <div className="app_chef-sign">
+        <div className="app__chef-sign">
           <p className='p__opensans'>Saber The Chef</p>
           <p className="p__opensans">Chef & Founder</p>
           <img src={images.sign} alt="signature" />
