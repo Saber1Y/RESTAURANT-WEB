@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React,{ useState } from 'react'
 import { AboutUs, Chef, Findus, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import {Navbar } from './components'
 import './App.scss';
@@ -6,7 +6,7 @@ import './App.scss';
 export default function App() {
   return (
     <>
-    <h1 className='hii'>hello</h1>
+    <Navbar />
     <AboutUs />
     <Chef />
     <Findus />
@@ -15,7 +15,6 @@ export default function App() {
     <Header />
     <Intro />
     <Laurels />
-    <Navbar />
     <SpecialMenu />
 </>
   )
