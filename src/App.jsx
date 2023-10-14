@@ -9,13 +9,13 @@ export default function App() {
     <Navbar />
     <Header />
     <AboutUs />
+    <SpecialMenu />
     <Chef />
     <Findus />
     <Footer />
     <Gallery />
     <Intro />
     <Laurels />
-    <SpecialMenu />
 </>
   )
 }
