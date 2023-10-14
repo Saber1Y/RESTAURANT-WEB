@@ -1,6 +1,5 @@
 @import 'index';
 
-
 .app__navbar {
     width: 100%;
     display: flex;
@@ -32,7 +31,7 @@
       cursor: pointer;
   
       &:hover {
-        color: var(--color-grey);
+        color: $color-grey;
       }
     }
   }
@@ -48,14 +47,14 @@
       transition: 0.5s ease;
   
       &:hover {
-        border-bottom: 1px solid var(--color-golden);
+        border-bottom: 1px solid $color-golden;
       }
     }
   
     div {
       width: 1px;
       height: 30px;
-      background: var(--color-grey);
+      background: $color-grey;
     }
   }
   
@@ -69,14 +68,14 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: var(--color-black);
+    background: $color-black;
     transition: 0.5s ease;
     flex-direction: column;
     z-index: 5;
   
     .overlay__close {
       font-size: 27px;
-      color: var(--color-golden);
+      color: $color-golden;
       cursor: pointer;
       position: absolute;
       top: 20px;
@@ -89,14 +88,44 @@
       li {
         margin: 2rem;
         cursor: pointer;
-        color: var(--color-golden);
+        color: $color-golden;
         font-size: 2rem;
         text-align: center;
-        font-family: var(--font-base);
+        font-family: $font-base;
   
         &:hover {
-          color: var(--color-white);
+          color: $color-white;
         }
       }
+    }
+      
+  }
+  @media screen and (min-width: 2000px) {
+    .app__navbar-logo img {
+      width: 210px;
+    }
+  }
+  
+  @media screen and (max-width: 1150px) {
+    .app__navbar-links {
+      display: none;
+    }
+  
+    .app__navbar-smallscreen {
+      display: flex;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .app__navbar {
+      padding: 1rem;
+    }
+  
+    .app__navbar-login {
+      display: none;
+    }
+  
+    .app__navbar-logo img {
+      width: 110px;
     }
   }
