@@ -3,6 +3,7 @@
 .app__specialMenu {
     flex-direction: column;
     background: $color-black;
+    max-width: 100%;
   
     .app__specialMenu-title {
       margin-bottom: 2rem;
@@ -83,4 +84,13 @@
       }
     }
   }
+  //   @media screen and (min-width: 1150px) {
+  //     .app__specialMenu-menu_cocktails {
+  //       display: flex;
+  //       flex-direction: column;
+  //       margin: 0 1rem ;
+  //       width: 100%;
+  //       color: $color-golden;
+  // }
+  // }
   

@@ -11,17 +11,29 @@ $color-white: #ffffff;
     margin: 1rem 0;
     display: flex;
     flex-direction: column;
+
   }
   
   .app__menuitem-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (min-width: 1150px) {
+      flex-direction: column;
+      column-gap: 5px;
+      flex-wrap: nowrap;
+      text-align: center;
+    }
   }
   
   .app__menuitem-sub {
     width: 100%;
     margin-top: 0.2rem;
+
+    @media screen and (min-width: 1150px) {
+      text-align: center;
+    }
   }
   
   .app__menuitem-name {
@@ -41,3 +53,9 @@ $color-white: #ffffff;
     align-items: flex-end;
   }
   
+
+  @media screen and (min-width: 1150px) {
+    .app__menuitem {
+      flex-direction: column;
+    }
+}

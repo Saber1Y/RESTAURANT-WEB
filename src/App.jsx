@@ -11,11 +11,10 @@ export default function App() {
     <AboutUs />
     <SpecialMenu />
     <Chef />
- 
+    <Laurels />
     <Findus />
     <Footer />
     <Gallery />
-    <Laurels />
 </>
   )
 }
