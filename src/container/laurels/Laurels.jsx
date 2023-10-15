@@ -3,15 +3,36 @@ import { images, data } from '../../constants'
 import { SubHeading } from '../../components'
 import './laurels.scss';
 
+
+const AwardCard = ({ award: { imgUrl, title, subtitle } }) => {
+  return (
+    <div className="app__laurels awards-cards">
+      <img src={imgUrl} alt="award" />
+      <p className="p__cormorant" style={{ color: '#DCCA87' }}>{title}</p>
+      <p className="p__opensans">{subtitle}</p>
+    </div>
+  );
+}
+
+
+
 const Laurels = () => {
   return (
     <div className="app__bg app__wrapper section__padding" id="awards">
-    <div className="app__wrapper_info">
+      <div className="app__wrapper_info">
         <SubHeading title="Awards & recognition" />
         <h1 className="headtext__cormorant">Our Laurels</h1>
+
+      <div className="app__laurels_awards">
+        {data.awards.map((award) => 
+        <AwardCard award={award} key={award.title} />)}
+           </div>
         </div>
     <div className="app__wrapper_img">
+</div>
 
+    <div className="app__wrapper_img">
+      <img src={images.laurels} alt="laurels_img" />
     </div>
     </div>
   )
