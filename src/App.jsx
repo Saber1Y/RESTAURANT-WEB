@@ -12,9 +12,9 @@ export default function App() {
     <SpecialMenu />
     <Chef />
     <Laurels />
+    <Gallery />
     <Findus />
     <Footer />
-    <Gallery />
 </>
   )
 }
