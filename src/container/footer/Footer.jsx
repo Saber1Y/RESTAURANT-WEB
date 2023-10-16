@@ -1,5 +1,6 @@
 import React from 'react'
 import { FooterOverlay, Newsletter } from '../../components';
+import  './footer.scss'
 // import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
 const Footer = () => {
