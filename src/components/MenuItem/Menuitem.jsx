@@ -1,7 +1,7 @@
 import React from 'react'
 import './Menuitem.scss'
 
-const Menuitem = ({title, price, tags}) => {
+const Menuitem = ({ title, price, tags }) => {
   return (
   <div className='app__menuitem'>
     <div className="app__menuitem-head">
