@@ -36,11 +36,10 @@ const Footer = () => {
         <p className="p__opensans">09-00am-10-00am</p>
       
         </div>
-      </div>
       <div className="footer__copyright">
         <p className='p__opensans'>2023 All Rights Reserved </p>
       </div>
-
+      </div>
     </div>
   )
 }
